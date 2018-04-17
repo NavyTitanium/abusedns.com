@@ -2,9 +2,13 @@
 title: Passive DNS
 description : "Passive DNS data"
 ---
+
+### Overview <a id="chapter-1"></a>
+
 **Passive DNS or DNS records History allows to view old records or the history of changes of a particular domain name might be useful when investigating. No official database containing all of the records of changes exist. There's however many different website that offer you to search on their own database of domains that they saved the information for.**
 
-### Website offering historical DNS data
+### Tools <a id="chapter-3"></a>
+#### Website offering historical DNS data
 Here is a list of the most popular website offering.
 
 | Website | Description |
@@ -18,5 +22,12 @@ Here is a list of the most popular website offering.
 | [passivetotal](https:/passivetotal.org/)    | RiskIQ Community brings petabytes of internet intelligence. RiskIQ collects 1,000 gigabytes of passive DNS data daily |
 
 
-### References
+### Real case abuse<a id="chapter-2"></a>
+
+
+### Research <a id="chapter-4"></a>
+
+### Mitigation <a id="chapter-5"></a>
+
+### References <a id="chapter-6"></a>
 [How to View Your DNS History for Free](https://woorkup.com/view-dns-history-free/)

@@ -2,17 +2,21 @@
 title: Brute Forcing
 description : "Nice buttons on your page."
 ---
+
+### Overview <a id="chapter-1"></a>
+
 **DNS records hold a surprising amount of host information. By brute forcing them we can reveal additional targets. Also, DNS entries often give away information, for example "mail" indicating that we are obviously dealing with the mail server, or Cloudflare's default DNS entry "direct" which most of the time will point to the IP that they are trying to protect.**
 
-### Technique used
+#### Technique used
 Most of those tools are based on a dictionary of common server names, and a DNS request for each entries 	as a sub-domain of the domain you're testing.
 
-### Type of brute forcing
-Populars open-source tools for each of those type of those attacks are given below
+#### Type of brute forcing
+Popular open-source tools for each of those type of those attacks are given below
+
 #### Domain name
 It is possible to enumerate all records for a given domain name.
 
-##### Tools
+### Tools <a id="chapter-3"></a>
 
 |<div class="fa fa-wrench" aria-hidden="true" style="color: #00CC01;"> </div> Name | Description | Language |
 | ------ | ----------- | ------ |
@@ -21,7 +25,8 @@ It is possible to enumerate all records for a given domain name.
 #### Sub-domain
 Tools will normally attempts to enumerate DNS hostnames by brute force guessing of common sub-domains using a dictionary.
 
-##### Tools
+
+### Tools <a id="chapter-3"></a>
 
 |<div class="fa fa-wrench" aria-hidden="true" style="color: #00CC01;"> </div> Name | Description | Language |
 | ------ | ----------- | ------ |
@@ -34,9 +39,12 @@ Tools will normally attempts to enumerate DNS hostnames by brute force guessing 
 
 
 
+### Real case abuse<a id="chapter-2"></a>
 
 
+### Research <a id="chapter-4"></a>
 
-### References
+### Mitigation <a id="chapter-5"></a>
 
+### References <a id="chapter-6"></a>
 https://www.foo.be/papers/sdbf.pdf
