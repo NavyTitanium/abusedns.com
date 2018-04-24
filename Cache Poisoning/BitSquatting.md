@@ -20,6 +20,9 @@ description : "Bitsquatting is a somewhat well-known technique for exploiting co
 ### References <a id="chapter-6"></a>
 
 [Bitsquatting: DNS Hijacking without exploitation](http://dinaburg.org/bitsquatting.html)
+
 [DEF CON 19 - Bit-squatting: DNS Hijacking Without Exploitation](https://www.youtube.com/watch?v=9WcHsT97suU)
+
 [DEF CON 21 - Examining the Bitsquatting Attack Surface](https://www.youtube.com/watch?v=j2FVFVHVvgg)
+
 [Blackhat 2011 - Bit-squatting: DNS Hijacking without exploitation](https://www.youtube.com/watch?v=_si0FYl_IOA)
