@@ -36,7 +36,7 @@ Computer hardware, especially RAM, can suffer from random errors that manifest a
 
 [Bitsquatting: DNS Hijacking without exploitation](http://dinaburg.org/bitsquatting.html)
 
-[Bitsquatting - DNS Hijacking without Exploitation](https://media.blackhat.com/bh-us-11/Dinaburg/BH_US_11_Dinaburg_Bitsquatting_WP.pdf)
+[Blackhat - Bitsquatting - DNS Hijacking without Exploitation](https://media.blackhat.com/bh-us-11/Dinaburg/BH_US_11_Dinaburg_Bitsquatting_WP.pdf)
 
 [DEF CON 19 - Bit-squatting: DNS Hijacking Without Exploitation](https://www.youtube.com/watch?v=9WcHsT97suU)
 
