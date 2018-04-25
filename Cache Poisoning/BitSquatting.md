@@ -10,17 +10,23 @@ description : "Bitsquatting is a somewhat well-known technique for exploiting co
 
 Computer hardware, especially RAM, can suffer from random errors that manifest as corruption of one or more bits. The causes of these errors range from manufacturing defects to environmental factors such as cosmic rays and overheating. While the probability of a single error is small, the total error amount in all RAM connected to the Internet is significant. Malicious attackers can exploit these random errors remotely. 
 
-| 01100011 | 01101110 | 01101110 | 0101110 | 01100011 | 01101111 | 01101101 |
+| 01100110 | 01100010 | 01101001 | 00101110 | 01100111 | 01101111 | 01110110 |
 | -------- | -------- | -------- | ------- | -------- | -------- | -------- | 
-|    c     |     n    |     n    |    .    |     c     |    o      |   m    |
+|   f     |     b    |     i    |    .    |     g     |    o      |   v    |
 
-| 01100011 | 0110111<span style="color:red;">1</span> | 01101110 | 0101110 | 01100011 | 01101111 | 01101101 |
+
+| 01100110 | 01100010 | 011<span style="color:red;">1</span>1001 | 00101110 | 01100111 | 01101111 | 01110110 |
 | -------- | -------- | -------- | ------- | -------- | -------- | -------- | 
-|    c     |     <span style="color:red;">o</span>    |     n    |    .    |     c     |    o      |   m    |
+|    f     |     <span style="color:red;">b</span>    |     y    |    .    |     g     |    o      |   v    |
 
 ### Real case abuse<a id="chapter-2"></a>
 
 ### Tools <a id="chapter-3"></a>
+
+|<div class="fa fa-wrench" aria-hidden="true" style="color: #00CC01;"> </div> Name | Description | Language |
+| ------ | ----------- | ------ |
+| [bitsquat_dns](https://github.com/benjaminpetrin/bitsquatting) | conduct research in bitsquatting  | Python3 |
+| [digbit](https://github.com/mnmnc/digbit) | Automatic domain generation for BitSquatting  | Python |
 
 ### Research <a id="chapter-4"></a>
 
