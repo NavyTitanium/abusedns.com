@@ -12,12 +12,12 @@ Computer hardware, especially RAM, can suffer from random errors that manifest a
 
 | 01100110 | 01100010 | 01101001 | 00101110 | 01100111 | 01101111 | 01110110 |
 | -------- | -------- | -------- | ------- | -------- | -------- | -------- | 
-|   f     |     b    |     i    |    .    |     g     |    o      |   v    |
+|  f  |  b  |  i  |  .  |  g  |  o  |  v  |
 
 
 | 01100110 | 01100010 | 011<span style="color:red;">1</span>1001 | 00101110 | 01100111 | 01101111 | 01110110 |
 | -------- | -------- | -------- | ------- | -------- | -------- | -------- | 
-|    f     |     <span style="color:red;">b</span>    |     y    |    .    |     g     |    o      |   v    |
+|  f  |  b  |  <span style="color:red;">y</span>  |  .  |  g  |  o  |  v  |
 
 ### Real case abuse<a id="chapter-2"></a>
 
