@@ -16,7 +16,7 @@ Computer hardware, especially RAM, can suffer from random errors that manifest a
 
 | 01100011 | 0110111<span style="color:red;">1</span> | 01101110 | 0101110 | 01100011 | 01101111 | 01101101 |
 | -------- | -------- | -------- | ------- | -------- | -------- | -------- | 
-|    c     |     o    |     n    |    .    |     c     |    o      |   m    |
+|    c     |     <span style="color:red;">o</span>    |     n    |    .    |     c     |    o      |   m    |
 
 ### Real case abuse<a id="chapter-2"></a>
 
