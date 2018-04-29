@@ -6,4 +6,4 @@ draft: false
 
 You can reach me on Twitter: [@Secu0133](https://twitter.com/Secu0133)
 
-I accept push requests for this website on Github: [NavyTitanium](https://github.com/NavyTitanium/abusedns.com)
+I accept pull requests for this website on Github: [NavyTitanium](https://github.com/NavyTitanium/abusedns.com)
