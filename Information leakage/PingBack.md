@@ -6,9 +6,9 @@ description : "DNS PingBack reveals internal services"
 ### Overview <a id="chapter-1"></a>
 DNS pingback is a method that can be used to reveal IP address of different services. For example, some websites will process and resolve hostnames in certain HTTP headers. This allows the attacker to receive queries on their authoritative DNS server. Also, some web sites will issue HTTP requests back to Referer URLs logged from incoming traffic. Reasons for doing so could vary from marketing to threat analytics.
 
-Some email gateways also process links or domain names inside emails for security purposes. By doing so, an attacker could be receiving DNS queries from that organization, revealing parts of their infrastructure. 
-
 ![](dns-referer-attack.png)
+
+Some email gateways also process links or domain names inside emails for security purposes. By doing so, an attacker could be receiving DNS queries from that organization, revealing parts of their infrastructure. 
 
 ### Real case abuse<a id="chapter-2"></a>
 This method has been used to decloak backend systems behind the Tor hidden service.
@@ -19,7 +19,7 @@ This method has been used to decloak backend systems behind the Tor hidden servi
 ### Tools <a id="chapter-3"></a>
 In many cases, submitting a hostname that you own to the target system will be enough to trigger the PingBack if the service is configured to resolve it.
 
-For example, PortSwigger is a Burp Suite Pro extension which augments your proxy traffic by injecting non-invasive headers designed to reveal backend systems by causing pingbacks to [Burp Collaborator]
+* PortSwigger is a Burp Suite Pro extension which augments your proxy traffic by injecting non-invasive headers designed to reveal backend systems by causing pingbacks to [Burp Collaborator]
 (https://github.com/PortSwigger/collaborator-everywhere)
 
 
